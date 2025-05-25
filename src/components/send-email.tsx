@@ -1,8 +1,4 @@
-interface SendEmailProps {
-    
-}
-
-export default function SendEmail({ }: SendEmailProps) {
+export default function SendEmail() {
     return (
         <form className="flex flex-col gap-4 bg-theme-600 rounded-lg p-4 text-sm not-dark:shadow-sm">
             <h2 className="text-lg font-medium">Mande uma mensagem</h2>

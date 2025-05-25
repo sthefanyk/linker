@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Phone, Globe, Download, Bell, Copy, Check, X } from 'lucide-react';
-import { Github, Linkedin, Twitter, Mail, Instagram } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import SocialMidia from "@/components/social-midia";
 import CardProject from "@/components/card-project";
 import ContactLink from "@/components/contact-link";
@@ -52,9 +52,11 @@ export default function Home() {
         flex flex-col items-center
         `}>
         <div className={`z-10 -mt-10 p-2 bg-theme-800 rounded-full`}>
-          <img
+          <Image
             src="https://github.com/sthefanyk.png"
-            alt=""
+            alt="Picture of the author"
+            width={500}
+            height={500}
             className="w-20 h-20 rounded-full"
           />
         </div>
@@ -178,9 +180,12 @@ export default function Home() {
             </button>
 
             <div className="w-20 h-20 p-1 bg-theme-800 rounded-full">
-              <img
+
+              <Image
                 src="https://github.com/sthefanyk.png"
-                alt=""
+                alt="Picture of the author"
+                width={500}
+                height={500}
                 className="w-full h-full rounded-full object-cover"
               />
             </div>
