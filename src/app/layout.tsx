@@ -9,8 +9,8 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Linker",
-  description: "Linker Sthefany Kimberly",
+  title: "Linker | Sthefany Kimberly",
+  description: "Linker de Sthefany Kimberly",
 };
 
 export default function RootLayout({
