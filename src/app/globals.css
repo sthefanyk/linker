@@ -1,42 +1,46 @@
+@import 'tailwindcss';
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAFAFA;
+  --foreground: #111111;
+  --font-display: "Work Sans", "sans-serif";
+}
+
+@theme {
+  --color-theme-200: #E9E9E9;
+  --color-theme-300: #999999;
+  --color-theme-400: #7E7E7E;
+  --color-theme-450: #EEEEEE;
+  --color-theme-500: #F5F5F5;
+  --color-theme-600: #FFFFFF;
+  --color-theme-800: #FAFAFA;
+  --color-theme-900: #070707;
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+    --background: #111111;
+    --foreground: #FAFAFA;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+    --color-theme-200: #CDCDCD;
+    --color-theme-300: #999999;
+    --color-theme-400: #7E7E7E;
+    --color-theme-450: #282828;
+    --color-theme-500: #232323;
+    --color-theme-600: #161616;
+    --color-theme-800: #111111;
+    --color-theme-900: #070707;
+  }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-display);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+  /* scrollbar-color: #4b5563 #1f2937;
+  scrollbar-width: thin; */
 }
