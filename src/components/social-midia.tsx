@@ -19,8 +19,8 @@ export default function SocialMidia({ username, link, style = "", children }: So
               hover:bg-theme-500
               ${style}
             `}>
-                <span>{username}</span>
                 {children}
+                <span>{username}</span>
         </a>
     )
 }

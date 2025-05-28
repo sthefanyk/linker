@@ -137,22 +137,28 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4">
           <CardProject
-            name="Pizza.shop"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora quos quibusdam."
+            name="TaskPilot | Gerenciador de tarefas com IA"
+            description="Gerenciador de tarefas com integração de IA generativa para dar suporte ao desenvolvimento de software, nela é possível descrever tarefas da forma mais sucinta e deixar a IA atuar como um gerente de projeto experiente refinando a tarefa."
             imageUrl="https://github.com/sthefanyk.png"
-            projectUrl="#"
+            projectUrl="https://taskpilot.sthefanyk.com"
           />
           <CardProject
-            name="Pizza.shop"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora quos quibusdam."
+            name="PizzaCore | Dashboard para gestão no estilo iFood."
+            description="Sistema de delivery, inspirado em plataformas como iFood e Uber Eats, com foco na gestão de estabelecimentos e controle de pedidos."
             imageUrl="https://github.com/sthefanyk.png"
-            projectUrl="#"
+            projectUrl="https://pizzacore.sthefanyk.com"
           />
           <CardProject
-            name="Pizza.shop"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempora quos quibusdam."
+            name="Nutrire | Aplicativo para uma horta comunitária"
+            description="Um aplicativo mobile pensado para auxilia na reserva e compra de produtos da horta comunitária da Moradia Estudantil da Unesp Bauru."
             imageUrl="https://github.com/sthefanyk.png"
-            projectUrl="#"
+            projectUrl="https://nutrire.sthefanyk.com"
+          />
+          <CardProject
+            name="Inventory | API para genciamento de estoque"
+            description="API robusta para gerenciamento de estoque, estruturada com DDD e Clean Architecture, visando modularidade, testabilidade e escalabilidade."
+            imageUrl="https://github.com/sthefanyk.png"
+            projectUrl="https://inventory.sthefanyk.com"
           />
           <SendEmail />
         </div>
