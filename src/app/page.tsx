@@ -82,8 +82,8 @@ export default function Home() {
         </div>
         <div className="w-full flex gap-2 py-2">
           <a
-            href="/curriculo.pdf"
-            download="SthefanyK-Curriculo.pdf"
+            href="/curriculo-sthefany-kimberly.pdf"
+            download="sthefanyk-curriculo.pdf"
             onClick={handleDownload}
             className={`
               w-10 h-10 p-2 bg-white text-theme-400 rounded-md
@@ -139,25 +139,25 @@ export default function Home() {
           <CardProject
             name="TaskPilot | Gerenciador de tarefas com IA"
             description="Gerenciador de tarefas com integração de IA generativa para dar suporte ao desenvolvimento de software, nela é possível descrever tarefas da forma mais sucinta e deixar a IA atuar como um gerente de projeto experiente refinando a tarefa."
-            imageUrl="https://github.com/sthefanyk.png"
+            imageUrl="/taskpilot-logo.png"
             projectUrl="https://taskpilot.sthefanyk.com"
           />
           <CardProject
             name="PizzaCore | Dashboard para gestão no estilo iFood."
             description="Sistema de delivery, inspirado em plataformas como iFood e Uber Eats, com foco na gestão de estabelecimentos e controle de pedidos."
-            imageUrl="https://github.com/sthefanyk.png"
+            imageUrl="/pizzacore-logo.png"
             projectUrl="https://pizzacore.sthefanyk.com"
           />
           <CardProject
             name="Nutrire | Aplicativo para uma horta comunitária"
             description="Um aplicativo mobile pensado para auxilia na reserva e compra de produtos da horta comunitária da Moradia Estudantil da Unesp Bauru."
-            imageUrl="https://github.com/sthefanyk.png"
+            imageUrl="/nutrire-logo.png"
             projectUrl="https://nutrire.sthefanyk.com"
           />
           <CardProject
             name="Inventory | API para genciamento de estoque"
             description="API robusta para gerenciamento de estoque, estruturada com DDD e Clean Architecture, visando modularidade, testabilidade e escalabilidade."
-            imageUrl="https://github.com/sthefanyk.png"
+            imageUrl="/inventory-logo.png"
             projectUrl="https://inventory.sthefanyk.com"
           />
           <SendEmail />
